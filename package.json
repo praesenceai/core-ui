@@ -1,0 +1,33 @@
+{
+  "name": "@praesenceai/core-ui",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "./dist/core-ui.umd.cjs",
+  "module": "./dist/core-ui.js",
+  "exports": {
+    ".": {
+      "import": "./dist/core-ui.js",
+      "require": "./dist/core-ui.umd.cjs"
+    },
+    "./styles": "./dist/core.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "dev:demo": "vite demo --open",
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.3",
+    "vite": "^6.0.11"
+  }
+}
