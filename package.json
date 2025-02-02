@@ -9,7 +9,7 @@
       "import": "./dist/core-ui.js",
       "require": "./dist/core-ui.umd.cjs"
     },
-    "./styles": "./dist/core.css"
+    "./styles": "./dist/core-ui.css"
   },
   "files": [
     "dist"

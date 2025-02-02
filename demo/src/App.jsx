@@ -1,5 +1,5 @@
-import { Button } from '../../src/index' 
-import '../../src/styles/core.css'
+import { Button } from '@praesenceai/core-ui';
+import '@praesenceai/core-ui/styles';
 
 export default function App() {
   return (
